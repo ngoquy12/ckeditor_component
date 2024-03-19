@@ -6,7 +6,7 @@ export default function CKEditorComponent() {
   const [editor, setEditor] = useState(null);
   const [value, setValue] = useState("");
 
-  console.log("value: ", value);
+  console.log("value: ", value.length);
 
   useEffect(() => {
     let editorInstance = null;
